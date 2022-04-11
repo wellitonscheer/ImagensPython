@@ -23,7 +23,7 @@ while True:
                 # print(id, lm)
                 h, w, c = img.shape
                 cx, cy = int(lm.x * w), int(lm.y * h)
-                print(id, cx, cy)
+                #print(id, cx, cy)
                 # if id == 4:
                 cv2.circle(img, (cx, cy), 15, (255,191,0), cv2.FILLED)
  
